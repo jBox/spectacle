@@ -65,10 +65,9 @@ button:focus {
   height: 100vh;
   overflow: auto;
   position: fixed;
-  bottom: 0;
-  left: 0;
-  top: 0;
   width: $drawer-size;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px
 
   h5 {
     margin: 1.5rem 0 0.65rem;
@@ -136,6 +135,8 @@ button:focus {
   background: $white;
   overflow: hidden;
   position: relative;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 
   .example-box {
     display: none;

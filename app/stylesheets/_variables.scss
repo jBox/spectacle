@@ -29,49 +29,49 @@ $dark-background-color: $black !default;
 //
 // JSON schema labels
 
-$msg-json-section-description: "Description" !default;
-$msg-json-section-properties: "Properties" !default;
-$msg-json-section-items: "Items" !default;
-$msg-json-section-inherited: "Inherited" !default;
-$msg-json-section-anyOf: "Any of" !default;
+$msg-json-section-description: "描述" !default;
+$msg-json-section-properties: "属性" !default;
+$msg-json-section-items: "集合" !default;
+$msg-json-section-inherited: "继承" !default;
+$msg-json-section-anyOf: "其中之一" !default;
 $msg-json-discriminator: "discriminator" !default;
 $msg-json-read-only: "read only" !default;
 $msg-json-required: "required" !default;
-$msg-json-ref-prefix: "Details: " !default;
-$msg-json-section-additionalProperties: "Additional properties" !default;
-$msg-json-section-example: "Example" !default;
+$msg-json-ref-prefix: "详情: " !default;
+$msg-json-section-additionalProperties: "额外属性" !default;
+$msg-json-section-example: "样例" !default;
 
 //
 // Swagger labels
 
-$msg-swagger-data-type: 'Data type' !default;
-$msg-swagger-description: 'Description' !default;
+$msg-swagger-data-type: '数据类型' !default;
+$msg-swagger-description: '描述' !default;
 
-$msg-swagger-section-operation-path: 'Path' !default;
+$msg-swagger-section-operation-path: '路径' !default;
 $msg-swagger-section-operation-description: $msg-swagger-description !default;
-$msg-swagger-section-request-params: 'Request parameters' !default;
-$msg-swagger-section-request-body: 'Request body' !default;
-$msg-swagger-section-responses: 'Responses' !default;
+$msg-swagger-section-request-params: '请求参数' !default;
+$msg-swagger-section-request-body: '请求内容' !default;
+$msg-swagger-section-responses: '响应' !default;
 
-$msg-swagger-param-key: 'Key' !default;
-$msg-swagger-param-name: 'Name' !default;
+$msg-swagger-param-key: '键' !default;
+$msg-swagger-param-name: '名称' !default;
 $msg-swagger-param-description: $msg-swagger-description !default;
-$msg-swagger-param-data-type: 'Data type' !default;
-$msg-swagger-param-type: 'Type' !default;
+$msg-swagger-param-data-type: '数据类型' !default;
+$msg-swagger-param-type: '类型' !default;
 
-$msg-swagger-response-header-name: 'Header' !default;
+$msg-swagger-response-header-name: '头部' !default;
 $msg-swagger-response-header-description: $msg-swagger-description !default;
-$msg-swagger-response-header-data-type: 'Data type' !default;
+$msg-swagger-response-header-data-type: '数据类型' !default;
 
-$msg-swagger-section-request-security: 'Security' !default;
-$msg-swagger-request-security-scopes: 'Scopes' !default;
-$msg-swagger-request-security-schema: 'Schema' !default;
-$msg-swagger-security-definition-properties: 'Properties' !default;
-$msg-swagger-security-definition-type-basic: '(HTTP Basic Authentication)' !default;
-$msg-swagger-security-definition-type-oauth2: '(OAuth2 Authentication)' !default;
-$msg-swagger-security-definition-type-apikey: '(API Key Authentication)' !default;
-$msg-swagger-badge-global: 'global' !default;
+$msg-swagger-section-request-security: '验证方法' !default;
+$msg-swagger-request-security-scopes: '范围' !default;
+$msg-swagger-request-security-schema: '定义' !default;
+$msg-swagger-security-definition-properties: '属性' !default;
+$msg-swagger-security-definition-type-basic: '(HTTP 基本验证)' !default;
+$msg-swagger-security-definition-type-oauth2: '(OAuth2 验证)' !default;
+$msg-swagger-security-definition-type-apikey: '(API Key 验证)' !default;
+$msg-swagger-badge-global: '全局' !default;
 
-$msg-swagger-response-code: 'Code' !default;
-$msg-swagger-response-description: 'Description' !default;
-$msg-swagger-response-schema: 'Schema' !default;
+$msg-swagger-response-code: '代码' !default;
+$msg-swagger-response-description: '描述' !default;
+$msg-swagger-response-schema: 'Schema定义' !default;

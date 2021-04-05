@@ -5,7 +5,7 @@
 
 <article>
   <h1 class="doc-title">{{info.title}}
-    <span>API Reference</span>
+    <span>{{label "API Reference"}}</span>
   </h1>
    {{#unless info.x-spectacle-hide}}
     {{>swagger/introduction}}
@@ -26,7 +26,7 @@
   {{! Powered by link }}
   <div class="doc-row no-margin">
     <div class="doc-copy doc-separator">
-      <a class="powered-by" href="https://sourcey.com/spectacle">Documentation by <span>Spectacle</span></a>
+      <a class="powered-by" href="https://sourcey.com/spectacle">{{label "Documentation by"}} <span>Spectacle</span> {{label "built"}}</a>
     </div>
   </div>
 </article>

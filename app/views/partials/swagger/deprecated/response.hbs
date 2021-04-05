@@ -14,7 +14,7 @@
 
     {{#each response.examples}}
         <div class="col-md-6 swagger-response-examples">
-            <div class="label secondary">Example for {{@key}}</div>
+            <div class="label secondary">{{label "Example for"}} {{@key}}</div>
             {{json .}}
         </div>
     {{/each}}

@@ -52,7 +52,7 @@
     {{! Print examples without whitespace. }}
     <div class="doc-examples">
       {{#if produces}}
-        <h5>Response Content-Types:
+        <h5>{{label "Response Content-Types"}}:
           <span>{{#each produces}}{{.}}{{#unless @last}}, {{/unless}}{{/each}}</span>
         </h5>
       {{/if}}
@@ -61,13 +61,13 @@
         {{#schemaReferenceContext $ref}}
           {{#if schema}}
           <section>
-            <h5>Response Example <span>({{@key}} {{httpResponseCode @key}})</span></h5>
+            <h5>{{label "Response Example"}} <span>({{@key}} {{httpResponseCode @key}})</span></h5>
             {{>swagger/print-example .}}
           </section>
           {{/if}}
           {{#if headers}}
             <section>
-              <h5>Response Headers <span>({{@key}} {{httpResponseCode @key}})</span></h5>
+              <h5>{{label "Response Headers"}} <span>({{@key}} {{httpResponseCode @key}})</span></h5>
               <section class="swagger-response-headers">
                 <table class="table">
                   <thead>

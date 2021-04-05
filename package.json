@@ -1,7 +1,7 @@
 {
-  "name": "spectacle-docs",
+  "name": "spectacle-material-cn",
   "version": "1.1.0",
-  "description": "Generate beautiful static API documentation from OpenAPI/Swagger 2.0 specifications",
+  "description": "Generate beautiful static API documentation from OpenAPI/Swagger 2.0 specifications (zh-cn)",
   "preferGlobal": true,
   "bin": {
     "spectacle": "bin/spectacle.js"

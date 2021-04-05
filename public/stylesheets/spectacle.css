@@ -12,28 +12,28 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 
 */ }
   #spectacle .swagger-operation-path:before {
-    content: "Path";
+    content: "路径";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
     text-transform: uppercase;
     font-size: 0.9rem; }
   #spectacle .swagger-operation-description:before {
-    content: "Description";
+    content: "描述";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
     text-transform: uppercase;
     font-size: 0.9rem; }
   #spectacle .swagger-request-params:before {
-    content: "Request parameters";
+    content: "请求参数";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
     text-transform: uppercase;
     font-size: 0.9rem; }
   #spectacle .swagger-request-body:before {
-    content: "Request body";
+    content: "请求内容";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
@@ -42,7 +42,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   #spectacle .swagger-request-body .json-schema-properties:before {
     display: none; }
   #spectacle .swagger-responses:before {
-    content: "Responses";
+    content: "响应";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
@@ -61,65 +61,65 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     font-size: 0.75rem;
     border-radius: 4px;
     padding: 3px 6px;
-    content: "global"; }
+    content: "全局"; }
   #spectacle table.table th.swagger-param-key {
     width: auto; }
     #spectacle table.table th.swagger-param-key:before {
-      content: "Key"; }
+      content: "键"; }
   #spectacle table.table th.swagger-param-name {
     width: auto; }
     #spectacle table.table th.swagger-param-name:before {
-      content: "Name"; }
+      content: "名称"; }
   #spectacle table.table th.swagger-param-description {
     width: auto; }
     #spectacle table.table th.swagger-param-description:before {
-      content: "Description"; }
+      content: "描述"; }
   #spectacle table.table th.swagger-param-data-type {
     width: auto; }
     #spectacle table.table th.swagger-param-data-type:before {
-      content: "Data type"; }
+      content: "数据类型"; }
   #spectacle table.table th.swagger-param-type {
     width: auto; }
     #spectacle table.table th.swagger-param-type:before {
-      content: "Type"; }
+      content: "类型"; }
   #spectacle table.table th.swagger-request-security-schema {
     width: auto; }
     #spectacle table.table th.swagger-request-security-schema:before {
-      content: "Schema"; }
+      content: "Schema定义"; }
   #spectacle table.table th.swagger-request-security-scopes {
     width: auto; }
     #spectacle table.table th.swagger-request-security-scopes:before {
-      content: "Scopes"; }
+      content: "范围"; }
   #spectacle table.table th.swagger-response-header-name {
     width: auto; }
     #spectacle table.table th.swagger-response-header-name:before {
-      content: "Header"; }
+      content: "头部"; }
   #spectacle table.table th.swagger-response-header-description {
     width: auto; }
     #spectacle table.table th.swagger-response-header-description:before {
-      content: "Description"; }
+      content: "描述"; }
   #spectacle table.table th.swagger-response-header-data-type {
     width: auto; }
     #spectacle table.table th.swagger-response-header-data-type:before {
-      content: "Data type"; }
+      content: "数据类型"; }
   #spectacle table.table th.swagger-response-code {
     width: auto; }
     #spectacle table.table th.swagger-response-code:before {
-      content: "Code"; }
+      content: "代码"; }
   #spectacle table.table th.swagger-response-description {
     width: auto; }
     #spectacle table.table th.swagger-response-description:before {
-      content: "Description"; }
+      content: "描述"; }
   #spectacle table.table th.swagger-response-schema {
     width: auto; }
     #spectacle table.table th.swagger-response-schema:before {
-      content: "Schema"; }
+      content: "Schema定义"; }
   #spectacle .swagger-response-name-value {
     font-weight: bold; }
   #spectacle .swagger-response-description-text {
     padding-bottom: 0.5em; }
   #spectacle .swagger-request-security:before {
-    content: "Security";
+    content: "安全";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
@@ -127,22 +127,22 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     font-size: 0.9rem; }
   #spectacle .swagger-security-definition-basic:before {
     color: #cacaca;
-    content: "(HTTP Basic Authentication)"; }
+    content: "(HTTP 基本验证)"; }
   #spectacle .swagger-security-definition-oauth2:before {
     color: #cacaca;
-    content: "(OAuth2 Authentication)"; }
+    content: "(OAuth2 验证)"; }
   #spectacle .swagger-security-definition-apiKey:before {
     color: #cacaca;
-    content: "(API Key Authentication)"; }
+    content: "(API Key 验证)"; }
   #spectacle .json-schema-description:before {
-    content: "Description";
+    content: "描述";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
     text-transform: uppercase;
     font-size: 0.9rem; }
   #spectacle .json-schema-properties:before {
-    content: "Properties";
+    content: "属性";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
@@ -167,21 +167,21 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     color: #8a8a8a;
     content: ">"; }
   #spectacle .json-schema-example:before {
-    content: "Example";
+    content: "样例";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
     text-transform: uppercase;
     font-size: 0.9rem; }
   #spectacle .json-schema-array-items:before {
-    content: "Items";
+    content: "项";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
     text-transform: uppercase;
     font-size: 0.9rem; }
   #spectacle .json-schema-allOf-inherited:before {
-    content: "Inherited";
+    content: "继承";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
@@ -194,7 +194,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     #spectacle .json-schema-anyOf > dl dt:first-child:before {
       content: "either "; }
   #spectacle .json-schema-additionalProperties:before {
-    content: "Additional properties";
+    content: "额外属性";
     display: block;
     margin-bottom: 0.5em;
     color: #f68b1f;
@@ -220,7 +220,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     font-size: 0.75rem;
     border-radius: 4px;
     padding: 3px 6px;
-    content: "discriminator"; }
+    content: "判断"; }
   #spectacle .json-property-required:before {
     display: inline-block;
     padding: 0.33333rem 0.5rem;
@@ -234,7 +234,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     font-size: 0.75rem;
     border-radius: 4px;
     padding: 3px 6px;
-    content: "required"; }
+    content: "需要的"; }
   #spectacle .json-property-read-only:before {
     display: inline-block;
     padding: 0.33333rem 0.5rem;
@@ -248,7 +248,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     font-size: 0.75rem;
     border-radius: 4px;
     padding: 3px 6px;
-    content: "read only"; }
+    content: "只读"; }
   #spectacle .json-property-format {
     font-style: italic; }
   #spectacle .json-property-enum:before {
